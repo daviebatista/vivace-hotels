@@ -4,7 +4,7 @@
 .section    {
     display: flex;
     flex-direction: row;
-    height: 118vh;
+    height: 116vh;
     width: 100%;
 }
 
@@ -12,7 +12,7 @@
     background-color: $darkGreen;
     display: flex;
     flex-direction: column;
-    height: 118vh;
+    height: 116vh;
     padding-left: 155px;
     padding-top: 52px;
     width: 45%;
@@ -23,6 +23,12 @@
     font-family: $pd;
     font-size: 36px;
     font-weight: 100;
+    transition: 0.3s;
+    
+    &:hover {
+        color: $goldie;
+        cursor: pointer;
+    }
 }
 
 .subtitle   {
@@ -43,19 +49,28 @@
 .button {
     background-color: $goldie;
     border: none;
+    box-shadow: 0 2px 2px 2px rgba(0, 0, 0, 0.27);
     color: $darkGreen;
     font-family: $nunito;
     font-size: 18px;
     height: 52px;
     margin-top: 45px;
+    transition: 0.3s;
     width: 268px;
+    
+
+    &:hover {
+        background-color: $lightYellow;
+        color: $brown;
+        cursor: pointer;
+    }
 }
 
 .right  {
     background-color: $goldie;
     display: flex;
     flex-direction: column;
-    height: 118vh;
+    height: 116vh;
     width: 55%;
 }
 
@@ -71,6 +86,7 @@
     flex-direction: row;
     justify-content: space-between;
     margin-left: 100px;
+    transition: 0.2s;
     width: 244px;
 }
 
@@ -79,17 +95,30 @@
     font-family: $nunito;
     font-size: 18px;
     text-decoration: none;
+    transition: 0.2s;
+
+    &:hover    {
+        color: $vivaceWhite;
+    }
 }
 
 .reservation    {
     background-color: $darkGreen;
     border: none;
+    box-shadow: 0 2px 2px 2px rgba(0, 0, 0, 0.27);
     color: $vivaceWhite;
     font-size: 18px;
+    height: 52px;
     margin-left: 120px;
     text-transform: uppercase;
-    height: 52px;
+    transition: 0.2s;
     width: 162px;
+
+    &:hover {
+        cursor: pointer;
+        color: $lightYellow;
+        background-color: $vivaceGreen;
+    }
 }
 
 .image  {

@@ -17,15 +17,14 @@ main    {
 }
 
 ::-webkit-scrollbar {
-    width: 8px;
+    width: 10px;
 
 }
 
 ::-webkit-scrollbar-track {
-    background: #151515;
+    background: $vivaceGreen;
 }
 
 ::-webkit-scrollbar-thumb {
-    background: #868686;
-    border-radius: 40px;
+    background: $lightYellow;
 }
