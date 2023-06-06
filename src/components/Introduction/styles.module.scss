@@ -1,0 +1,99 @@
+@import '../../../styles/colors.module.scss';
+@import '../../../styles/fonts.scss';
+
+.section    {
+    display: flex;
+    flex-direction: row;
+    height: 118vh;
+    width: 100%;
+}
+
+.left   {
+    background-color: $darkGreen;
+    display: flex;
+    flex-direction: column;
+    height: 118vh;
+    padding-left: 155px;
+    padding-top: 52px;
+    width: 45%;
+}
+
+.title  {
+    color: $vivaceWhite;
+    font-family: $pd;
+    font-size: 36px;
+    font-weight: 100;
+}
+
+.subtitle   {
+    color: $vivaceWhite;
+    font-family: $pd;
+    font-size: 48px;
+    padding-top: 55px;
+}
+
+.description    {
+    color: $vivaceWhite;
+    font-family: $nunito;
+    font-size: 24px;
+    padding-top: 45px;
+    width: 360px;
+}
+
+.button {
+    background-color: $goldie;
+    border: none;
+    color: $darkGreen;
+    font-family: $nunito;
+    font-size: 18px;
+    height: 52px;
+    margin-top: 45px;
+    width: 268px;
+}
+
+.right  {
+    background-color: $goldie;
+    display: flex;
+    flex-direction: column;
+    height: 118vh;
+    width: 55%;
+}
+
+.nav    {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    margin-top: 55px;
+}
+
+.links  {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 100px;
+    width: 244px;
+}
+
+.anchors    {
+    color: $darkGreen;
+    font-family: $nunito;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.reservation    {
+    background-color: $darkGreen;
+    border: none;
+    color: $vivaceWhite;
+    font-size: 18px;
+    margin-left: 120px;
+    text-transform: uppercase;
+    height: 52px;
+    width: 162px;
+}
+
+.image  {
+    margin-left: 100px;
+    margin-top: 30px;
+    width: 524px;
+}
