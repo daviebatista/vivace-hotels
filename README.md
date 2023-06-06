@@ -12,7 +12,9 @@ You can check its full wireframe <a href="https://www.figma.com/file/YthDo58TItO
 
 # 🔨 Used Tech 🔨
 
-* Vite;
-* React;
-* SplideJs;
 * ESLint;
+* FeatherIcons;
+* React;
+* SCSS;
+* SplideJs;
+* Vite;
