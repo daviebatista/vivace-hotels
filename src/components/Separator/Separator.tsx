@@ -1,9 +1,10 @@
 import styles from './styles.module.scss';
 
-function Separator  ()  {
+function Separator  (props: any)  {
+    const bg = props.bg
     return(
         <>
-            <hr className={styles.separator}/>
+            <hr className={styles.separator} style={{backgroundColor: bg}}/>
         </>
     )
 }
