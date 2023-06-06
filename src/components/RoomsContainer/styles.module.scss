@@ -1,0 +1,108 @@
+@import '../../../styles/colors.module.scss';
+@import '../../../styles/fonts.scss';
+
+.section    {
+    background-color: $darkGreen;
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+}
+
+.features   {
+    background-color: $goldie;
+    margin: 0 auto;
+    margin-top: -69px;
+    height: 135px;
+    width: 1062px;
+}
+
+.rooms  {
+    margin-left: 155px;
+    padding-top: 120px;
+}
+
+.title  {
+    color: $lightYellow;
+    font-family: $pd;
+    font-size: 36px;
+    font-weight: 100;
+    margin-bottom: 30px;
+}
+
+.description    {
+    color: $lightYellow;
+    font-family: $nunito;
+    font-size: 24px;
+    font-weight: 100;
+    margin-top: 30px;
+    width: 320px;
+}
+
+.roomImages {
+    width: 290px;
+}
+
+.roomName   {
+    align-self: center;
+    color: $lightYellow;
+    font-family: $nunito;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.splideContainer    {
+    width: 630px;
+    margin-left: 235px;
+    margin-top: 130px;
+
+}
+
+.divider    {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.splideCard {
+    display: flex;
+    flex-direction: column;
+}
+
+.features   {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 0 70px;
+}
+
+.descriptions   {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.iconContainers {
+    background-color: $vivaceGreen;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    width: 72px;
+    height: 72px;
+}
+
+.information    {
+    color: $vivaceGreen;
+    font-family: $nunito;
+    font-size: 24px;
+    margin-left: 20px;
+    width: 180px;
+}
+
+.icons  {
+    color: $lightYellow;
+    margin-left: 12px;
+    margin-top: 14px;
+    width: 48px;
+}

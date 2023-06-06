@@ -1,0 +1,65 @@
+@import '../../../styles/colors.module.scss';
+@import '../../../styles/fonts.scss';
+
+.section    {
+    display: flex;
+    flex-direction: row;
+    height: 294px;
+    margin-top: 102px;
+    margin-bottom: 102px;
+    width: 100%;
+}
+
+.aboutImage   {
+    width: 45%;
+}
+
+.image  {
+    width: 610px;
+}
+
+
+.aboutTile  {
+    color: $darkGreen;
+    font-family: $pd;
+    font-size: 36px;
+    font-weight: 100;
+    width: 160px;
+}
+
+.aboutSection   {
+    margin-left: 102px;
+}
+
+.description    {
+    font-family: $nunito;
+    font-size: 24px;
+    width: 536px;
+}
+
+
+.pageIndicator  {
+    background-color: $vivaceGreen;
+    height: 294px;
+    margin-left: 56px;
+    width: 52px;
+}
+
+.button {
+    background-color: $goldie;
+    border: none;
+    box-shadow: 0 2px 2px 2px rgba(0, 0, 0, 0.27);
+    color: $darkGreen;
+    font-family: $nunito;
+    font-size: 18px;
+    height: 52px;
+    margin-top: 40px;
+    transition: 0.3s;
+    width: 162px;
+
+    &:hover {
+        background-color: $lightYellow;
+        color: $brown;
+        cursor: pointer;
+    }
+}
