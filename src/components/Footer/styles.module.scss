@@ -1,2 +1,111 @@
 @import '../../../styles/colors.module.scss';
+@import '../../../styles/fonts.scss';
 
+.footer {
+    display: flex;
+    flex-direction: column;
+    min-height: 530px;
+
+}
+
+.section    {
+    background-color: $lightYellow;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 110px;
+    min-height: 440px;
+    padding: 100px;
+}
+
+.addresses  {
+    display: flex;
+    flex-direction: column;
+
+    margin-left: 50px;
+}
+
+.addressesTitle {
+    color: $darkGreen;
+    font-family: $pd;
+    font-size: 36px;
+    font-weight: 100;
+}
+
+.addressesTexts {
+    color: $darkGreen;
+    font-family: $nunito;
+    font-size: 18px;
+}
+
+.seal   {
+    align-items: center;
+    background-color: $goldie;
+    display: flex;
+    height: 90px;
+
+    p   {
+        color: $darkGreen;
+        font-family: $nunito;
+        font-size: 18px;
+        margin-left: 150px;
+    }
+}
+
+.explore    {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 10px;
+}
+
+.exploreTitle   {
+    color: $darkGreen;
+    font-family: $pd;
+    font-size: 24px;
+    font-weight: 100;
+    margin-bottom: -10px;
+}
+
+.exploreTexts   {
+    color: $darkGreen;
+    font-family: $nunito;
+    font-size: 18px;
+}
+
+.newsletter {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.newsletterTitle    {
+    color: $darkGreen;
+    font-family: $pd;
+    font-weight: 100;
+    margin-bottom: 25px;
+}
+
+.sign   {
+    background-color: transparent;
+    border: none;
+    border-bottom: $darkGreen 1px solid;
+    color: $darkGreen;
+    width: 252px;
+}
+
+.button {
+    background-color: $darkGreen;
+    border: none;
+    color: $vivaceWhite;
+    font-size: 18px;
+    height: 52px;
+    width: 121px;
+    transition: 0.3s;
+
+    &:hover {
+        background-color: $vivaceGreen;
+        color: $brown;
+        cursor: pointer;
+    }
+}

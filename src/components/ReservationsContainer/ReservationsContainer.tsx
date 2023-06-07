@@ -13,12 +13,6 @@ function ReservationsContainer ()    {
                         <input className={styles.inputs} type="text" id='name' name='name'/>
                         <label className={styles.labels} htmlFor="email">Email</label>
                         <input className={styles.inputs} type="text" id='email' name='email'/>
-                        <span className={styles.span}>
-                            <input type="radio" id="hills" name="unit" value="Hills" className={styles.radios} />
-                            <label htmlFor="hills" className={styles.labels} >Hills</label>
-                            <input type="radio" id="shores" name="unit" value="Shores" className={styles.radios} />
-                            <label htmlFor="shores" className={styles.labels} >Shores</label>
-                        </span>
                         <label className={styles.labels} htmlFor="message">Mensagem</label>
                         <input type="text" id='message' name='message' className={styles.message} />
                         <button className={styles.reservation}>Enviar</button>

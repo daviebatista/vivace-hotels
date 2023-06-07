@@ -1,16 +1,45 @@
+import Separator from '../Separator/Separator';
 import styles from './styles.module.scss';
 
 function Footer ()    {
     return(
         <>
-            <section className={styles.section}>
-                <div>
-
+            <footer className={styles.footer}>
+                <section className={styles.section}>
+                    <div className={styles.addresses}>
+                        <h1 className={styles.addressesTitle}>VIVACE SHORES</h1>
+                        <p className={styles.addressesTexts}>Lg. Presidente García Moreno, nº 42</p>
+                        <p className={styles.addressesTexts}>(47) 4012-5519</p>
+                        <p className={styles.addressesTexts}>contato@vivaceshores.com</p>
+                        <h1 className={styles.addressesTitle}>VIVACE HILLS</h1>
+                        <p className={styles.addressesTexts}>Estrada BR 251, km 140</p>
+                        <p className={styles.addressesTexts}>(47) 4013-9104</p>
+                        <p className={styles.addressesTexts}>contato@vivacehills.com</p>
+                    </div>
+                    <div className={styles.explore}>
+                        <h1 className={styles.exploreTitle}>Explore</h1>
+                        <div style={{marginBottom: "-30px"}}>
+                            <Separator bg={'#064635'}/>
+                        </div>
+                        <p className={styles.exploreTexts}>Sobre nós</p>
+                        <p className={styles.exploreTexts}>Nossos Quartos</p>
+                        <p className={styles.exploreTexts}>Faça sua reserva</p>
+                    </div>
+                    <div className={styles.newsletter}>
+                        <h1 className={styles.newsletterTitle}>Não perca nossas novidades</h1>
+                        <div style={{marginBottom: "20px"}}>
+                            <Separator bg={'#064635'}/>
+                        </div>
+                        <div style={{display: "flex", flexDirection: "row", gap: "40px"}}>
+                            <input type="text" placeholder='Digite seu email...' className={styles.sign} />
+                            <button className={styles.button}>ENVIAR</button>
+                        </div>
+                    </div>
+                </section>
+                <div className={styles.seal}>
+                    <p>© Todos os direitos reservados. Pousadas Vivace, 2023</p>
                 </div>
-                <div>
-
-                </div>
-            </section>
+            </footer>
         </>
     )
 }

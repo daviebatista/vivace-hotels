@@ -31,7 +31,7 @@
 .form   {
     display: flex;
     flex-direction: column;
-    gap: 42px;
+    gap: 22px;
     justify-content: space-around;
     margin-top: -20px;
 }
@@ -60,7 +60,7 @@
 .message    {
     border: none;
     border-bottom: 1px solid $darkGreen;
-    height: 50px;
+    height: 190px;
     padding: 12px;
     width: 432px;
 }
