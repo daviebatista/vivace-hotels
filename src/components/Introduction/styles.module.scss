@@ -4,7 +4,8 @@
 .section    {
     display: flex;
     flex-direction: row;
-    height: 116vh;
+    flex-wrap: wrap;
+    min-height: 116vh;
     width: 100%;
 }
 
@@ -12,7 +13,7 @@
     background-color: $darkGreen;
     display: flex;
     flex-direction: column;
-    height: 116vh;
+    min-height: 116vh;
     padding-left: 155px;
     padding-top: 52px;
     width: 45%;
@@ -70,7 +71,7 @@
     background-color: $goldie;
     display: flex;
     flex-direction: column;
-    height: 116vh;
+    min-height: 116vh;
     width: 55%;
 }
 
@@ -125,4 +126,114 @@
     margin-left: 100px;
     margin-top: 30px;
     width: 524px;
+}
+
+@media (max-width: 1200px)  {
+
+    .left   {
+        padding-left: 100px;
+        min-height: 130vh;
+    }
+
+    .right  {
+        min-height: 130vh;
+    }
+
+    .links  {
+        margin-left: 50px;
+    }
+
+    .image  {
+        margin-left: 50px;
+    }
+}
+
+@media (max-width: 1100px)  {
+    .subtitle  {
+        width: 300px;
+    }
+
+    .left   {
+        padding-left: 50px;
+    }
+
+    .description    {
+        width: 300px;
+    }
+
+    .image  {
+        width: 400px;
+    }
+
+    .reservation    {
+        font-size: 14px;
+        margin-left: 50px;
+        width: 104px;
+    }
+}
+
+@media (max-width: 860px)   {
+    
+    .subtitle   {
+        font-size: 36px;
+        padding-top: 20px;
+    }
+
+    .description    {
+        padding-top: 15px;
+    }
+
+    .left  {
+        padding-left: 15px;
+        padding-top: 15px;
+    }
+    .image  {
+        width: 300px;
+    }
+
+    .nav    {
+        margin-top: 15px;
+    }
+
+    .links  {
+        width: 200px;
+    }
+
+    .anchors    {
+        font-size: 14px;
+    }
+
+    .reservation    {
+        font-size: 14px;
+        height: 40px;
+        margin-left: 15px;
+        width: 90px;
+    }
+}
+
+@media (max-width: 768px)   {
+    .section    {
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    
+    .left  {
+        align-items: center;
+        text-align: center;
+        width: 100%;
+    }
+
+    .right  {
+        width: 100%;
+    }
+
+    .nav    {
+        align-items: center;
+        display: none;
+        text-align: center;
+    }
+
+    .image  {
+        margin: auto;
+    }
 }
