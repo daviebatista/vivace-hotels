@@ -9,7 +9,9 @@ function RoomsContainer ()    {
             <section className={styles.section}>
                 <div className={styles.rooms}>
                     <h1 className={styles.title}>Nossos quartos</h1>
-                    <Separator bg={"#F4EEA9"} />
+                    <div className={styles.separator}>
+                        <Separator bg={"#F4EEA9"} />
+                    </div>
                     <p className={styles.description}>Nossa especialidade é lhe proporcionar a melhor vista natural, em conjunto com o conforto e a comodidade que nossos quartos tem como ninguém.</p>
                 </div>
                 <div className={styles.splideContainer}>
@@ -17,8 +19,20 @@ function RoomsContainer ()    {
                     options={{
                         type: "loop",
                         perPage: 2,
-                        height: "360px",
-                        gap: "20px"
+                        height: "320px",
+                        gap: "20px",
+                        breakpoints:    {
+                            1200:   {
+                                height:"280px",
+                            },
+                            956:    {
+                                height: "370px",
+                                perPage: 1,
+                            },
+                            657:    {
+                                height: "300px"
+                            }
+                        }
                     }}
                     >
                         <SplideSlide style={{textAlign: "center"}}>

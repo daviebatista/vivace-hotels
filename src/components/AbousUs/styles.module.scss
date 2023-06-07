@@ -11,11 +11,11 @@
 }
 
 .aboutImage   {
-    width: 45%;
+    width: 50%;
 }
 
 .image  {
-    width: 610px;
+    width: 100%;
 }
 
 
@@ -28,20 +28,21 @@
 }
 
 .aboutSection   {
-    margin-left: 102px;
+    padding-left: 50px;
+    width: 45%;
 }
 
 .description    {
     font-family: $nunito;
     font-size: 24px;
-    width: 536px;
+    width: 80%;
 }
 
 
 .pageIndicator  {
     background-color: $vivaceGreen;
+    margin-left: 100px;
     height: 294px;
-    margin-left: 56px;
     width: 52px;
 }
 
@@ -61,5 +62,44 @@
         background-color: $lightYellow;
         color: $brown;
         cursor: pointer;
+    }
+}
+
+@media  (max-width:   1200px) {
+    .aboutTile  {
+        font-size: 24px;
+    }
+
+    .description    {
+        font-size: 14px;
+    }
+    
+    .pageIndicator  {
+        height: 80%;
+    }
+
+    .button {
+        height: 40px;
+        margin-top: 10px;
+    }
+}
+
+@media  (max-width: 768px)  {
+    .section    {
+        flex-direction: column;
+        height: 30vh;
+    }
+
+    .aboutImage {
+        display: none;
+    }
+
+    .aboutSection   {
+        justify-content: center;
+        width: 100%;
+    }
+
+    .pageIndicator  {
+        display: none;
     }
 }

@@ -39,7 +39,7 @@
 }
 
 .roomImages {
-    width: 290px;
+    width: 270px;
 }
 
 .roomName   {
@@ -51,8 +51,8 @@
 }
 
 .splideContainer    {
-    width: 630px;
-    margin-left: 235px;
+    width: 45%;
+    margin-left: 150px;
     margin-top: 130px;
 
 }
@@ -105,4 +105,137 @@
     margin-left: 12px;
     margin-top: 14px;
     width: 48px;
+}
+
+@media  (max-width: 1200px)   {
+    .features   {
+        margin-top: 0px;
+    }
+
+    .description    {
+        font-size: 24px;
+        margin-top: 20px;
+    }
+
+    .roomImages {
+        width: 240px;
+    }
+    
+    .splideContainer    {
+        margin-left: 90px;
+    }
+
+}
+
+@media  (max-width: 1060px)  {
+    .features   {
+        width: 100%;
+    }
+    .splideContainer    {
+        margin-left: 45px;
+    }
+
+
+    .roomImages {
+        width: 200px;
+    }
+}
+
+@media  (max-width: 956px)  {
+    .section{
+        height: 105vh;
+    }
+    .rooms  {
+        margin-left: 90px;
+    }
+
+    .roomImages {
+        width: 300px;
+    }
+}
+
+@media  (max-width: 880px)  {
+    .rooms  {
+        margin-left: 45px;
+    }
+
+    .information    {
+        font-size: 14px;
+        width: 120px;
+    }
+
+    .iconContainers {
+        height: 48px;
+        width: 48px;
+    }
+
+    .icons  {
+        width: 24px;
+    }
+
+    .features   {
+        height: 70px;
+    }
+}
+
+@media  (max-width: 768px)  {
+    .section    {
+        align-items: center;
+        flex-direction: column;
+        height: 140vh;
+        text-align: center;
+    }
+
+    .rooms  {
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+
+    .description    {
+        font-size: 18px;
+    }
+
+    .splideContainer    {
+        margin-left: 0px;
+        margin-top: 40px;
+    }
+
+    .separator  {
+        margin-left: 40%;
+        text-align: center;
+    }
+}
+
+@media  (max-width: 657px)  {
+    .roomImages {
+        width: 200px;
+    }
+}
+
+@media  (max-width: 580px)  {
+    .features   {
+        flex-direction: column;
+        height: 520px;
+    }
+
+    .icons  {
+        width: 48px;
+    }
+
+    .iconContainers {
+        height: 72px;
+        width: 72px;
+    }
+
+    .descriptions   {
+        flex-direction: column-reverse;
+    }
+
+    .information    {
+        font-size: 24px;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        width: 200px;
+    }
 }
