@@ -6,7 +6,7 @@ import '@splidejs/react-splide/css';
 function RoomsContainer ()    {
     return(
         <>
-            <section className={styles.section}>
+            <section className={styles.section} id='roomsContainer'>
                 <div className={styles.rooms}>
                     <h1 className={styles.title}>Nossos quartos</h1>
                     <div className={styles.separator}>

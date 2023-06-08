@@ -4,7 +4,7 @@ import styles from './styles.module.scss';
 function Footer ()    {
     return(
         <>
-            <footer className={styles.footer}>
+            <footer className={styles.footer} id='footer'>
                 <section className={styles.section}>
                     <div className={styles.addresses}>
                         <h1 className={styles.addressesTitle}>VIVACE SHORES</h1>
@@ -21,9 +21,15 @@ function Footer ()    {
                         <div style={{marginBottom: "-30px"}}  className={styles.separatorDiv}>
                             <Separator bg={'#064635'}/>
                         </div>
-                        <p className={styles.exploreTexts}>Sobre nós</p>
-                        <p className={styles.exploreTexts}>Nossos Quartos</p>
-                        <p className={styles.exploreTexts}>Faça sua reserva</p>
+                        <a href="#aboutUs" style={{textDecoration: "none"}}>
+                            <p className={styles.exploreTexts}>Sobre nós</p>
+                        </a>
+                        <a href="#roomsContainer" style={{textDecoration: "none"}}>
+                            <p className={styles.exploreTexts}>Nossos Quartos</p>
+                        </a>
+                        <a href="#reservationsContainer" style={{textDecoration: "none"}}>
+                            <p className={styles.exploreTexts}>Faça sua reserva</p>
+                        </a>
                     </div>
                     <div className={styles.newsletter}>
                         <h1 className={styles.newsletterTitle}>Não perca nossas novidades</h1>

@@ -1,6 +1,9 @@
 @import '../../../styles/colors.module.scss';
 @import '../../../styles/fonts.scss';
 
+*{
+    scroll-behavior: smooth;
+}
 .section    {
     display: flex;
     flex-direction: row;

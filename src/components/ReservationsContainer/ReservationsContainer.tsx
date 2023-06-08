@@ -4,7 +4,7 @@ import styles from './styles.module.scss';
 function ReservationsContainer ()    {
     return(
         <>
-            <section className={styles.section}>
+            <section className={styles.section} id='reservationsContainer'>
                 <div className={styles.formDiv}>
                     <h1 className={styles.titleForm}>Entre em contato e faça sua reserva</h1>
                         <Separator bg={'#064635'} />
