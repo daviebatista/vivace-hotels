@@ -1,7 +1,7 @@
 {
   "name": "vivace-hotels",
   "private": true,
-  "version": "1.8.1",
+  "version": "1.9.1",
   "description": "UI/UX project created with Figma Drafts, converted into a styled landing page.",
   "type": "module",
   "author": "daviebatista",

@@ -21,7 +21,6 @@
 .addresses  {
     display: flex;
     flex-direction: column;
-
     margin-left: 50px;
 }
 
@@ -43,6 +42,7 @@
     background-color: $goldie;
     display: flex;
     height: 90px;
+    width: 100%;
 
     p   {
         color: $darkGreen;
@@ -91,6 +91,8 @@
     border: none;
     border-bottom: $darkGreen 1px solid;
     color: $darkGreen;
+    height: 50px;
+    margin-right: 20px;
     width: 252px;
 }
 
@@ -107,5 +109,55 @@
         background-color: $vivaceGreen;
         color: $brown;
         cursor: pointer;
+    }
+}
+
+
+.signInSession  {
+    display: "flex";
+    flex-direction: "row";
+    gap: "40px";
+}
+
+
+@media  (max-width: 768px)  {
+    .footer {
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .section    {
+        padding: 10px;
+        flex-direction: column;
+        gap: 40px;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .seal   {
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        p   {
+            align-items: center;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+    }
+
+    .separatorDiv   {
+        display: none;
+    }
+    .addresses  {
+        margin: 0;
+    }
+}
+
+@media  (max-width: 412px)  {
+    .button {
+        margin-top: 20px;
     }
 }

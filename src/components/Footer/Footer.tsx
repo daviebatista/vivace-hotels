@@ -18,7 +18,7 @@ function Footer ()    {
                     </div>
                     <div className={styles.explore}>
                         <h1 className={styles.exploreTitle}>Explore</h1>
-                        <div style={{marginBottom: "-30px"}}>
+                        <div style={{marginBottom: "-30px"}}  className={styles.separatorDiv}>
                             <Separator bg={'#064635'}/>
                         </div>
                         <p className={styles.exploreTexts}>Sobre nós</p>
@@ -28,9 +28,11 @@ function Footer ()    {
                     <div className={styles.newsletter}>
                         <h1 className={styles.newsletterTitle}>Não perca nossas novidades</h1>
                         <div style={{marginBottom: "20px"}}>
-                            <Separator bg={'#064635'}/>
+                            <div className={styles.separatorDiv}>
+                                <Separator bg={'#064635'}/>
+                            </div> 
                         </div>
-                        <div style={{display: "flex", flexDirection: "row", gap: "40px"}}>
+                        <div className={styles.signInSession}>
                             <input type="text" placeholder='Digite seu email...' className={styles.sign} />
                             <button className={styles.button}>ENVIAR</button>
                         </div>
